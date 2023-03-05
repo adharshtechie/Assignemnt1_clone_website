@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Shantell+Sans&family=Tilt+Warp&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.align{
+    height: 35px;
+    background-color: rgba(3, 3, 3, 0.856);
+    width: 1700px;
+   
+    
+
+
+}
+.im{
+    width: 45px;
+    height: 25px;
+    padding-left: 450px;
+    padding-top: 5px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+   
+}
+
+.align2 ul li{
+    list-style-type: none;
+  padding-top: 5px  40px;
+    display:inline-block;
+    text-align: right;
+}
+.align2 ul li a{
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+
+    
+
+}
+.align2{
+    margin-left: 530px;
+    margin-top: -27px;
+}
+.heading2{
+    height: 40px;
+    background-color: rgb(28, 30, 32);
+    border: rgb(38, 28, 28) 2px solid;
+    color: whitesmoke;
+    margin-top: 5px;
+    font-size: medium;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.heading2 a{
+    color: rgb(26, 160, 205);
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+span:hover{
+    text-decoration: underline;
+}
+.picture1{
+    height: 700px;
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+}
+.picture11{
+    color:white;
+    font-size: 30px;
+
+}
+.picture1 a{
+    font-size: 40px;
+    padding-top: 150px;
+}
+.picture11 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+}
+span:hover{
+    text-decoration: underline;   
+}
+.im2{
+    width: 700px;
+    height: 500px;
+}
+.picture2{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.picture22{
+    font-size: 30px;
+}
+
+.picture22 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+}
+span:hover{
+    text-decoration: underline;   
+}
+.video{
+    width: 100;
+    height: 850px;
+    padding-top: 250px;
+    background-color: white;
+    
+}
+.vid{
+    width: 100%;
+    position: relative;
+}
+.tit{
+    z-index: 1;
+    margin-top: 30px;
+}
+.overlay{
+    position: absolute;
+    top: 2200px;
+    color:rgb(244, 242, 242);
+    padding-left: 40%;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}
+.img3{
+position: absolute;
+left: 400px;
+}
+.button{
+    background-color: rgb(255, 252, 252);
+    height: 50px;
+    width: 190px;
+    position: relative;
+    left: 35%;
+    bottom: 90px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 45px;
+    text-decoration: none;
+    /* text-align: center; */
+}
+.button1{
+    position: absolute;
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-top: -40px;
+    top: 15px;
+    font-size: 20px;
+    
+}
+.button:hover{
+    background-color: rgba(240, 233, 233, 0.875);
+}
+
+.button2{
+    background-color: rgb(255, 252, 252);
+    height: 50px;
+    width: 190px;
+    position: relative;
+    left: 55%;
+    bottom: 145px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 45px;
+    text-decoration: none;
+}
+.button22{
+    position: absolute;
+    /* text-align: center; */
+    padding-left: 45px;
+    padding-top: -40px;
+    top: 15px;
+    font-size: 20px;
+}
+.button2:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.pimages{
+    width: 48%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: rgba(241, 231, 231, 0.808) 2px solid;
+    /* position: absolute; */
+    margin-left: 1%;
+    position: relative;
+    float: left;
+
+}
+.pimages-1{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    
+    
+}
+.textp1{
+    position: absolute;
+    top: 60px;
+    font-size: 50px;
+   
+}
+.pimages-11{
+    color: white;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+
+}
+.pimages-11 a{ 
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+    margin-left: 30px;
+    
+
+}
+.img4{
+    width: 450px;
+}
+/* .plink2{
+    position: absolute;
+    left: 57%;
+    top: 0px; */
+/* } */
+span:hover{
+    text-decoration: underline;   
+}
+.pimages-2{
+    margin-top: 100px;
+    background-color: white;
+    /* position: absolute; */
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    
+
+}
+.textp2{
+    position: absolute;
+    bottom: 530px;
+}
+.textp-22{
+    color: orange;
+    position: absolute;
+    bottom: 560px;
+}
+
+.pimages-22{
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: 430px;
+}
+.pimages-22 a{ 
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+    
+}
+.img5{
+    position: absolute;
+    width: 780px;
+    height: 350px;
+    right: -300px;
+    top: 185px;
+    
+}
+
+
+
+
+
+.pimages-3{
+    margin-top: 10px;
+    background-color: black;
+    /* position: absolute; */
+    font-family: 'Lato', sans-serif;
+    position: relative;
+
+}
+.textp3{
+    color: white;
+    position: absolute;
+    /* top: 60px; */
+    font-size: 20px;
+    bottom: 600px;
+    text-align: center;
+}
+.pimages-33{
+    color: white;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+}
+.pimages-33 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+   text-align: center;
+
+}
+.img6{
+    position: absolute;
+    width: 800px;
+    left: -310px;
+    height: 500px;
+    top: 85px;
+}
+
+
+.pimages-4{
+    margin-top: 10px;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    
+
+}
+.textp4{ 
+    color: white;
+    position: absolute;
+    top: 60px;
+    font-size: 20px;
+} 
+.pimages-44{ 
+    color: white;
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center; 
+    top: 120px;
+ }
+
+ .img7{
+    width: 90px;
+    height: 60px;
+    position: absolute;
+    left: 180px;
+    top: -15px;
+
+
+ }
+ .img8{
+    position: absolute;
+    width: 804px;
+    left: -310px;
+    top: 82px;
+
+ }
+ .pimages-44 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+   text-align: center;
+   padding-top: 100px;
+ }
+
+
+.pimages-5{
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+.textp5{ 
+        color: rgb(16, 15, 15);
+        position: absolute;
+        top: 60px;
+        font-size: 20px;
+   
+}
+strong{
+    background-color: rgb(18, 224, 18);
+}  
+.pimages-55{
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center; 
+    top: 120px;
+}
+.pimages-55 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+   text-align: center;
+} 
+
+.img9{
+    position: absolute;
+    width: 650px;
+    left: -160px;
+    top: 130px;
+
+}
+.pimages-6{
+    top: 10px;
+    background-color: black;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    /* position: absolute; */
+
+}
+.textp6{
+    position: absolute;
+    bottom: 580px;
+}
+.textp66{
+    color: rgb(255, 25, 0);
+    position: absolute;
+    bottom: 560px;
+}
+.pimages-66{
+    font-size: x-large;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: 430px;
+    color: white;
+}
+.pimages-66 a{ 
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(26, 160, 205);
+}
+.img10{
+    position: absolute;
+    width: 780px;
+    height: 400px;
+    right: -270px;
+    top: 120px;
+    
+}
+.tv{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(250, 249, 249);
+    position: relative;
+    top: 2250px;
+}
+.img11{
+    position: absolute;
+    width: 80%;
+    height: 700px;
+    right: 200px;
+
+}
+.img12{
+    position: absolute;
+    width: 12%;
+    height: 710px;
+    right:1500px;
+    top: -4px;
+}
+.img13{
+    position: absolute;
+    width: 11%;
+    height: 703px;
+    right: 3px;
+    top: -2px;
+
+}
+.button3{
+    background-color: rgb(239, 228, 228);
+    height: 50px;
+    width: 190px;
+    position: relative;
+    left: 15%;
+    bottom: -600px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 2px;
+    border-radius: 45px;
+    text-decoration: none;
+    /* text-align: center; */
+}
+.button31{
+    position: absolute;
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-top: -40px;
+    top: 15px;
+    font-size: 20px;
+    
+}
+.button3:hover{
+    background-color: rgba(240, 233, 233, 0.875);
+}
+.buttontext{
+    color: rgb(253, 248, 248);
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    width: 425px;
+    height: 25px;
+    background-color: rgba(238, 227, 227, 0);
+    position: absolute;
+    top: -2px;
+    left: 200px;
+}
+.ftr{
+    width: 100%;
+    height: 700px;
+    background-color: #e1dfe88c;
+    border: black 2 px solid;
+    position: relative;
+    top: 2300px;
+    color: black;
+    text-align: center;
+}
+.rectangle
+{
+   color: black; 
+   /* position: absolute; */
+   right: 50%;
+   text-align: center;
+}
+.hey{
+    color: black;
+    padding-left: 275px;
+    position: absolute;
+    left: 100px;
+    top: 5530px;
+    font-size: small;
+    font-family: 'Lato', sans-serif;
+}
+.hey a{
+    color: rgb(138, 130, 130);
+}
+
+.fli a{
+    text-decoration: none;
+}
+.fli{
+    margin-left: 30px;
+}
+.fli2{
+    margin-left: 210px;
+    margin-top: -415px;
+}
+.fli2 a{
+    text-decoration: none;
+}
+.fli3{
+    margin-left: 410px;
+    margin-top: -386px;
+}
+.fli3 a{
+    text-decoration: none;
+}
+.fli4{
+    margin-left: 590px;
+    margin-top: -192px;
+}
+.fli4 a{
+    text-decoration: none;
+}
+.fli5{
+    margin-left: 780px;
+    margin-top: -288px;
+}
+.fli5 a{
+    text-decoration: none;
+}
+.fli6 a{
+    color: blue;
+}
+.fli7 a{
+    text-decoration: none;
+}
+
+
